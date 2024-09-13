@@ -6,6 +6,7 @@ internal class Program
     static void Main(string[] args)
     {
         BranchesOperators.Operators();
+        BranchesOperators.ManipulatingVariables();
 
         Console.WriteLine("Hello! This is a programming reference");
 
