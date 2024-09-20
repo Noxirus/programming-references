@@ -5,15 +5,18 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        BranchesOperators.Operators();
-        BranchesOperators.ManipulatingVariables();
+        //BranchesOperators.Operators();
+        //BranchesOperators.ManipulatingVariables();
 
-        Console.WriteLine("Hello! This is a programming reference");
+        //Console.WriteLine("Hello! This is a programming reference");
 
-        Console.WriteLine("Feel free to write out something and I will tell it back to you!");
+        //Console.WriteLine("Feel free to write out something and I will tell it back to you!");
 
-        string yourInput = Console.ReadLine();
+        //string yourInput = Console.ReadLine();
 
-        Console.WriteLine("You typed: " + yourInput);
+        //Console.WriteLine("You typed: " + yourInput);
+
+        MultiDimensionalArray.InitializeChessBoard();
+        MultiDimensionalArray.DisplayBoard();
     }
 }
