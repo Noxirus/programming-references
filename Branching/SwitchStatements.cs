@@ -1,4 +1,4 @@
-﻿namespace ProgrammingOneReferences
+﻿namespace ProgrammingOneReferences.Branching
 {
     public static class SwitchStatements
     {

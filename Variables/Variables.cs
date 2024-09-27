@@ -1,11 +1,11 @@
-﻿namespace ProgrammingOneReferences
+﻿namespace ProgrammingOneReferences.Variables
 {
     internal class Variables
     {
         // Variables are the basis for all code.
         // We need ways to store and manipulate the data in our code.
         // This is how we can do that!
-        
+
         // Boolean, this variable represent either true or false. 1 meaning true, 0 meaning false.
         bool hasDied = false; // 1 Bit
 
@@ -37,7 +37,7 @@
         // We can unsign a number to remove the negative potential, this will double the size but only allow positive numbers.
         // For example: uint, ulong
         // Try to be mindful with decided which variables to use for your project, having to change them later can make life difficult!
-        
+
         // It's generally good practice to put D, F or L next
         // to the specific variable so that compiler does not get confused with a different potential value type.
     }

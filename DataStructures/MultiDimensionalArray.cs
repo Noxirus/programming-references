@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace ProgrammingOneReferences
+namespace ProgrammingOneReferences.DataStructures
 {
     static class MultiDimensionalArray
     {
@@ -13,15 +13,15 @@ namespace ProgrammingOneReferences
         // Be careful when it comes to nested for loops as they can become quite performant intensive and don't always scale well
         static public void InitializeChessBoard()
         {
-            for(int x = 0; x < 8; x++)
+            for (int x = 0; x < 8; x++)
             {
-                for(int y = 0; y < 8; y++)
+                for (int y = 0; y < 8; y++)
                 {
                     chessBoard[x, y] = "Empty Space";
                 }
             }
 
-            for(int x = 0; x < 8; x++)
+            for (int x = 0; x < 8; x++)
             {
                 chessBoard[x, 1] = "White Pawn";
                 chessBoard[x, 6] = "Black Pawn";
@@ -34,13 +34,13 @@ namespace ProgrammingOneReferences
         static public void DisplayBoard()
         {
             StringBuilder stringBuilder = new StringBuilder();
-            for(int x = 0;x < 8; x++)
+            for (int x = 0; x < 8; x++)
             {
                 // New Row
-                for(int y = 0;y < 8; y++)
+                for (int y = 0; y < 8; y++)
                 {
                     stringBuilder.Append(chessBoard[x, y]);
-                    if(y < 7)
+                    if (y < 7)
                     {
                         stringBuilder.Append(" | ");
                     }

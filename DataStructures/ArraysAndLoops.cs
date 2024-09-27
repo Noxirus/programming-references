@@ -1,4 +1,4 @@
-﻿namespace ProgrammingOneReferences
+﻿namespace ProgrammingOneReferences.DataStructures
 {
     static class ArraysAndLoops
     {
@@ -19,7 +19,7 @@
         // A way to repeat logic over a specified amount, or based on certain conditions.
         static public void ForLoop()
         {
-            for(int i = 0; i <= 10; i++)
+            for (int i = 0; i <= 10; i++)
             {
                 Console.WriteLine("Current Number: " + i);
             }
@@ -31,7 +31,7 @@
         static public void LoopThroughNames()
         {
             // A very basic way to iterate through all items in an array.
-            for(int i = 0; i < names.Length; i++)
+            for (int i = 0; i < names.Length; i++)
             {
                 Console.WriteLine(names[i]);
             }
@@ -68,9 +68,9 @@
         // This allow us to go back to the start of the loop and avoid any logic under the continue keyword
         static public void DontPrintEvenNumbers()
         {
-            for(int i = 0; i < 100; i++)
+            for (int i = 0; i < 100; i++)
             {
-                if(i % 2 == 0)
+                if (i % 2 == 0)
                 {
                     continue;
                 }
@@ -82,9 +82,9 @@
         // This will break us out of the current loop we are in
         static public void StopAfterFinding5()
         {
-            for(int i = 0; i < 10; i++)
+            for (int i = 0; i < 10; i++)
             {
-                if(i == 5)
+                if (i == 5)
                 {
                     Console.WriteLine("We found 5! We can stop now");
                     break;
@@ -102,9 +102,9 @@
             {
                 Random random = new Random();
                 int dTenDiceRoll = random.Next(1, 10);
-                if(dTenDiceRoll == 8)
+                if (dTenDiceRoll == 8)
                 {
-                    Console.WriteLine("Yay my favorite number was rolled! " +  dTenDiceRoll);
+                    Console.WriteLine("Yay my favorite number was rolled! " + dTenDiceRoll);
                     return dTenDiceRoll;
                 }
                 else
