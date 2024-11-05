@@ -11,7 +11,7 @@ namespace ProgrammingOneReferences.ObjectOriented
         protected float _speed;
 
         abstract public void MoveVehicle();
-
+        abstract protected void GetVehicleType();
 
     }
 }
