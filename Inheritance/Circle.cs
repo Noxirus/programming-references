@@ -23,4 +23,6 @@
             return perimeter;
         }
     }
+
+    // This is a non fancy comment
 }
