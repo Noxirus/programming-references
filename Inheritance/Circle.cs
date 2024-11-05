@@ -25,4 +25,5 @@
     }
 
     // This is a non fancy comment
+    // Another non fancy comment
 }
